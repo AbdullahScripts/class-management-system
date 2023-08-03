@@ -10,3 +10,46 @@ img:hover{
         transform: scale(1.2);
 }
 
+
+
+// button setting 
+
+.button-sub {
+    --color: rgba(18, 127, 134, 0.726);
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    margin: 20px;
+    font-size: 17px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .button-sub::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .button-sub:hover {
+    color: white;
+  }
+  
+  .button-sub:before {
+    top: 100%;
+    left: 100%;
+        transition: .3s all;}
+  .button-sub:hover::before {
+    top: -30px;
+    left: -30px;
+  }

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Context } from "../contexts/mainContext";
 import Subject from "../components/semester/Subject";
 import { useNavigate } from "react-router-dom";
+import Loader from "./loader/Loader";
 
 
 const Subjects = () => {
@@ -10,9 +11,9 @@ const navigate=useNavigate()
 
 const {sub}=useContext(Context)
 
-if(!sub) return <h1>loading</h1>
+if(!sub) return <Loader/>
 
-  return (
+ else{ return (
     <div className="container">
         <div className="row d-flex justify-content-center ">
           {sub.map((item, i) => {
@@ -32,7 +33,7 @@ if(!sub) return <h1>loading</h1>
         </button>
         </div>
       </div>
-  );
+  );}
 };
 
 export default Subjects;

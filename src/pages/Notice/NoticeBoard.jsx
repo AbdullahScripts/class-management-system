@@ -7,8 +7,11 @@ const NoticeBoard = () => {
     <div className="container ">
       <div className="row">
         <div className="col mb-5 mt-5">
-          <div class="card">
+          <div class="card-notice">
+          
             <div class="bg">
+            <h1 className="text-center text-primary" >Notice Board</h1>
+              <Ananouncment />
               <Ananouncment />
               <Ananouncment />
               <Ananouncment />
