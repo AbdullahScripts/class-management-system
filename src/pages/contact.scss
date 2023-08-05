@@ -1,7 +1,15 @@
-
+.main-contact{
+    min-height: 83vh;
+    background-image: url("../assests/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: auto;
+  background-attachment: contain;
+}
 
 .awesome-form {
-    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+    background: #ebeae8c4;
     width: 100%;
     max-width: 400px;
     padding: 40px;

@@ -16,12 +16,14 @@ navigate('/Subjects')
 }
 
 return (
+
+
     <div className="semester">
       <div className="card pb-2 p-1 card-sem">
        <img src={folder} alt="foldr" />
         <div className="card-body p-4">
           <h5 className="card-title">{num+1} semester</h5>
-          <p className="card-text">{data[0].subject}</p>
+          {/* <p className="card-text">{data[0].subject}</p> */}
         </div>
     
      <button class="learn-more" onClick={setSubject} >

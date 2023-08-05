@@ -2,11 +2,11 @@ import React from 'react'
 import './contact.scss'
 const Contact = () => {
   return (
-    <div class="container mt-5 ">
+    <div class="container-fluid main-contact pt-5 ">
   <div class="row d-flex justify-content-center">
-    <div class="col-md-6 offset-md-3">
+    <div class="col-md-4">
       <form class="awesome-form">
-        <h2 class="text-center">Contact Us</h2>
+        <h2 class="text-center text-primary ">Contact Us</h2>
 
         <div class="form-group">
           <input type="text" class="form-control" id="name" placeholder="Full Name" />

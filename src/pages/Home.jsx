@@ -5,73 +5,74 @@ export default function Home() {
   const semesters = [
     // Semester 1
     [
-      { subject: "Mathematics", grade: "A" },
-      { subject: "Physics", grade: "B+" },
-      { subject: "Chemistry", grade: "A-" },
-      // Add more subjects and grades as needed
+        { Physics: ['physics_book1', 'physics_book2'] },
+        { Chemistry: ['chemistry_book1.pdf', 'chemistry_book2.pdf'] },
+        { Math: ['math_book1.pdf', 'math_book2.pdf'] },
+        // Add more subjects and books as needed
     ],
-  
+
     // Semester 2
     [
-      { subject: "Computer Science", grade: "A+" },
-      { subject: "Biology", grade: "B" },
-      { subject: "English", grade: "B" },
-      // Add more subjects and grades as needed
+        { ComputerScience: ['computer_Science.pdf', 'physics_book2.pdf'] },
+        { Biology: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { English: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        // Add more subjects and books as needed
     ],
-  
+
     // Semester 3
     [
-      { subject: "History", grade: "A-" },
-      { subject: "Geography", grade: "B+" },
-      { subject: "Economics", grade: "A" },
-      // Add more subjects and grades as needed
+        { History: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Geography: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Economics: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        // Add more subjects and books as needed
     ],
-  
+
     // Semester 4
     [
-      { subject: "Psychology", grade: "B+" },
-      { subject: "Sociology", grade: "B-" },
-      { subject: "Anthropology", grade: "A-" },
-      // Add more subjects and grades as needed
+        { Psychology: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Sociology: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Anthropology: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        // Add more subjects and books as needed
     ],
-  
+
     // Semester 5
     [
-      { subject: "Political Science", grade: "A" },
-      { subject: "Philosophy", grade: "A+" },
-      { subject: "Literature", grade: "B+" },
-      // Add more subjects and grades as needed
+        { PoliticalScience: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Philosophy: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Literature: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        // Add more subjects and books as needed
     ],
-  
+
     // Semester 6
     [
-      { subject: "Art History", grade: "A-" },
-      { subject: "Music", grade: "A" },
-      { subject: "Dance", grade: "A+" },
-      // Add more subjects and grades as needed
+        { ArtHistory: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Music: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Dance: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        // Add more subjects and books as needed
     ],
-  
+
     // Semester 7
     [
-      { subject: "Statistics", grade: "B" },
-      { subject: "Accounting", grade: "A-" },
-      { subject: "Finance", grade: "B+" },
-      // Add more subjects and grades as needed
+        { Statistics: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Accounting: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Finance: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        // Add more subjects and books as needed
     ],
-  
+
     // Semester 8
     [
-      { subject: "Marketing", grade: "B+" },
-      { subject: "Management", grade: "A" },
-      { subject: "Business Ethics", grade: "A+" },
-      // Add more subjects and grades as needed
+        { Marketing: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { Management: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        { BusinessEthics: ['physics_book1.pdf', 'physics_book2.pdf'] },
+        // Add more subjects and books as needed
     ],
-  ];
- 
+];
+
+
 
   return (
     <>
-      <div className="container">
+      <div className="container-fluid main-contact p-5">
         <div className="row d-flex justify-content-center ">
           {semesters.map((item, i) => {
             return (

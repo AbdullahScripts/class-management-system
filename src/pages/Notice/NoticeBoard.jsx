@@ -4,7 +4,7 @@ import "./noticeBoard.scss";
 import Ananouncment from "./Ananouncment";
 const NoticeBoard = () => {
   return (
-    <div className="container ">
+    <div className="container-fluid main-contact  ">
       <div className="row">
         <div className="col mb-5 mt-5">
           <div class="card-notice">

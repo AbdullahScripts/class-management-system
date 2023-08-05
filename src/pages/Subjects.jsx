@@ -13,8 +13,18 @@ const {sub}=useContext(Context)
 
 if(!sub) return <Loader/>
 
+
+//   [
+//     { Physics: ['physics_book1.pdf', 'physics_book2.pdf'] },
+//     { Chemistry: ['chemistry_book1.pdf', 'chemistry_book2.pdf'] },
+//     { Math: ['math_book1.pdf', 'math_book2.pdf'] },
+//     // Add more subjects and books as needed
+// ],
+
+
+
  else{ return (
-    <div className="container">
+    <div className="container-fluid main-contact ">
         <div className="row d-flex justify-content-center ">
           {sub.map((item, i) => {
             return (
